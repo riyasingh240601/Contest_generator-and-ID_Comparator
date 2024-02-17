@@ -1,0 +1,37 @@
+.start{
+    background-color:#F7EDDB;
+    /* width: 1520px; */
+    height: 100%;
+    /* position: fixed; */
+    /* text-align: center; */
+}
+
+.inp1{
+    width:250px;
+    height: 45px;
+    border-radius: 0.5rem;
+    border: bold;
+    text-align: center;
+}
+
+.inp2{
+    width:250px;
+    height: 45px;
+    border-radius: 0.5rem;
+    text-align: center;
+}
+.btn{
+    align-items: center;
+    margin-left: 700px;
+}
+
+
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.inpp{
+    text-align: center;
+    border-radius: 1rem;
+}
