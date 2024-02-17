@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    
+     <link rel="stylesheet" href="comparator.css">
+
+     
+     <link rel="icon" type="image/png" href="images/icons8-contest-48.png">
+
+     <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+ 
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>comparator</title>
+</head>
+<body>
+    
+    <section id="title">
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#" style="padding-right: 5em;">✬ ✬ ✬  <bold>ID COMPARATOR</bold>  ✬ ✬ ✬</a>
+           
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+
+              <!-- <div class="input-group search-area">
+                <input type="search" class="form-control rounded" placeholder="Search Customer" aria-label="Search" aria-describedby="search-addon" />
+                <button type="button" class="btn btn-dark">Search</button>
+              </div> -->
+
+              <ul class="navbar-nav ml-auto">
+
+                <li class="nav-item active">
+                  
+                </li>
+
+                <li class="nav-item active">
+                  <a class="nav-link" href="/">Home</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="/">About</a>
+                </li>
+<!-- 
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Availability</a>
+                </li> -->
+
+                <li class="nav-item">
+                  <a class="nav-link" href="#footer">Contact</a>
+                </li>
+              </ul>
+
+              
+            </div>
+        </nav>
+
+
+      </section>
+
+    <div class="start">
+        <!-- <form action=""> -->
+            <!-- <span> -->
+
+              
+            <label for="inp1" style="padding-left: 13%; padding-top: 5%; padding-right: 5%;"><h3>Handle 1 :</h3></label>
+            <input type="text" placeholder="e.g. lil_StaR" class="inp1">
+            <!-- <div class="input-group mb-6" style="width: 16%;">
+              <div class="input-group-prepend">
+                <span class="input-group-text" id="basic-addon1">@</span>
+              </div>
+              <input type="text" class="form-control inp1" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1" style="width: 20%;">
+            </div> -->
+            <!-- <h6>v/s</h6> -->
+            <label for="inp2" style="padding-left: 13%; padding-top: 5%; padding-right: 5%; padding-bottom: 5%;"><h3>Handle 2 :</h3></label>
+            <input type="text" placeholder="e.g. lil_StaR" class="inp2">
+
+            <!-- </span> -->
+
+
+            
+        <!-- </form> -->
+        <!-- <span> -->
+        <button type="button" class="btn btn-lg btn-primary validate" style="margin-bottom: 10px; margin-left: 46.5%;">Validate</button>
+        <!-- <p><br></p> -->
+        <button type="button" class="btn btn-lg btn-primary compare" style="margin-left: 46.1%;">Compare</button>
+        <!-- </span> -->
+        <br>
+
+        <!-- <span> -->
+            <label for="inpt11"  style="padding-left: 15%; padding-right: 5%; padding-top: 5%;"><h3>Problem Rated as 800</h3></label>
+            <input type="text" class="inpt11  inpp"  style="margin-left: 10%; margin-right: 10%; background-color:white;" disabled >
+            <!-- <label for="inp2" style="padding: 10%;"><h3>Handle 2</h3></label> -->
+            <input type="text" class="inpt12  inpp" disabled style="background-color: white;">
+            <!-- <br> -->
+
+            <label style="padding-left: 15%; padding-right: 5%;"><h3>Problem Rated as 900</h3></label>
+            <input type="text" class="inpt21  inpp"  style="margin-left: 10%; background-color: white; margin-right: 10%;" disabled>
+            <!-- <label for="inp2" style="padding: 10%;"><h3>Handle 2</h3></label> -->
+            <input type="text" class="inpt22  inpp" disabled style="background-color: white;">
+
+            <label style="padding-left: 15%; padding-right: 4.2%;"><h3>Problem Rated as 1000</h3></label>
+            <input type="text" class="inpt31  inpp"  style="margin-left: 10%; background-color: white; margin-right: 10%;" disabled>
+            <!-- <label for="inp2" style="padding: 10%;"><h3>Handle 2</h3></label> -->
+            <input type="text" class="inpt32  inpp" disabled style="background-color: white;">
+
+            <label style="padding-left: 15%; padding-right: 4.6%;"><h3>Problem Rated as 1100</h3></label>
+            <input type="text" class="inpt41  inpp"  style="margin-left: 10%; background-color: white; margin-right: 10%;" disabled>
+            <!-- <label for="inp2" style="padding: 10%;"><h3>Handle 2</h3></label> -->
+            <input type="text" class="inpt42  inpp" disabled style="background-color: white;">
+
+            <label style="padding-left: 15%; padding-right: 4.3%;"><h3>Problem Rated as 1200</h3></label>
+            <input type="text" class="inpt51  inpp"  style="margin-left: 10%; background-color: white; margin-right: 10%;" disabled>
+            <!-- <label for="inp2" style="padding: 10%;"><h3>Handle 2</h3></label> -->
+            <input type="text" class="inpt52  inpp" disabled style="background-color: white;">
+
+            <label style="padding-left: 15%; padding-right: 4.3%;"><h3>Problem Rated as 1300</h3></label>
+            <input type="text" class="inpt61  inpp"  style="margin-left: 10%; background-color: white; margin-right: 10%;" disabled>
+            <!-- <label for="inp2" style="padding: 10%;"><h3>Handle 2</h3></label> -->
+            <input type="text" class="inpt62  inpp" disabled style="background-color: white;">
+
+            <label style="padding-left: 15%; padding-right: 4.3%;"><h3>Problem Rated as 1400</h3></label>
+            <input type="text" class="inpt71  inpp"  style="margin-left: 10%; background-color: white; margin-right: 10%;" disabled>
+            <!-- <label for="inp2" style="padding: 10%;"><h3>Handle 2</h3></label> -->
+            <input type="text" class="inpt72  inpp" disabled style="background-color: white;">
+
+            <label style="padding-left: 15%; padding-right: 4.3%;"><h3>Problem Rated as 1500</h3></label>
+            <input type="text" class="inpt81  inpp"  style="margin-left: 10%; background-color: white; margin-right: 10%;" disabled>
+            <!-- <label for="inp2" style="padding: 10%;"><h3>Handle 2</h3></label> -->
+            <input type="text" class="inpt82  inpp" disabled style="background-color: white;">
+
+            <label style="padding-left: 15%; padding-right: 4.3%;"><h3>Problem Rated as 1600</h3></label>
+            <input type="text" class="inpt91  inpp"  style="margin-left: 10%; background-color: white; margin-right: 10%;" disabled>
+            <!-- <label for="inp2" style="padding: 10%;"><h3>Handle 2</h3></label> -->
+            <input type="text" class="inpt92  inpp" disabled style="background-color: white;">
+
+            <label style="padding-left: 15%; padding-right: 4.3%;"><h3>Problem Rated as 1700</h3></label>
+            <input type="text" class="inpt101 inpp " style="margin-left: 10%; background-color: white; margin-right: 10%;" disabled>
+            <!-- <label for="inp2" style="padding: 10%;"><h3>Handle 2</h3></label> -->
+            <input type="text" class="inpt102 inpp " disabled style="background-color: white;">
+
+            <label style="padding-left: 15%; padding-right: 4.3%;"><h3>Problem Rated as 1800</h3></label>
+            <input type="text" class="inpt111 inpp " style="margin-left: 10%; background-color: white; margin-right: 10%;" disabled>
+            <!-- <label for="inp2" style="padding: 10%;"><h3>Handle 2</h3></label> -->
+            <input type="text" class="inpt112 inpp " disabled style="background-color: white;">
+
+            <label style="padding-left: 15%; padding-right: 4.3%;"><h3>Problem Rated as 1900</h3></label>
+            <input type="text" class="inpt121 inpp " style="margin-left: 10%; background-color: white; margin-right: 10%;" disabled>
+            <!-- <label for="inp2" style="padding: 10%;"><h3>Handle 2</h3></label> -->
+            <input type="text" class="inpt122 inpp " disabled style="background-color: white;">
+
+            <label style="padding-left: 15%; padding-right: 4.1%;"><h3>Problem Rated as 2000</h3></label>
+            <input type="text" class="inpt131 inpp " style="margin-left: 10%; background-color: white; margin-right: 10%;" disabled>
+            <!-- <label for="inp2" style="padding: 10%;"><h3>Handle 2</h3></label> -->
+            <input type="text" class="inpt132 inpp " disabled style="background-color: white;">
+            
+            <label style="padding-left: 15%; padding-right: 4.3%;"><h3>Problem Rated as 2100</h3></label>
+            <input type="text" class="inpt141 inpp " style="margin-left: 10%; background-color: white; margin-right: 10%;" disabled>
+            <!-- <label for="inp2" style="padding: 10%;"><h3>Handle 2</h3></label> -->
+            <input type="text" class="inpt142 inpp " disabled style="background-color: white;">
+
+            <label style="padding-left: 15%; padding-right: 4.1%;"><h3>Problem Rated as 2200</h3></label>
+            <input type="text" class="inpt151 inpp " style="margin-left: 10%; background-color: white; margin-right: 10%;" disabled>
+            <!-- <label for="inp2" style="padding: 10%;"><h3>Handle 2</h3></label> -->
+            <input type="text" class="inpt152 inpp " disabled style="background-color: white;">
+
+            <label style="padding-left: 15%; padding-right: 4.1%;"><h3>Problem Rated as 2300</h3></label>
+            <input type="text" class="inpt161 inpp " style="margin-left: 10%; background-color: white; margin-right: 10%;" disabled>
+            <!-- <label for="inp2" style="padding: 10%;"><h3>Handle 2</h3></label> -->
+            <input type="text" class="inpt162 inpp " disabled style="background-color: white;">
+
+            <label style="padding-left: 15%; padding-right: 4.1%;"><h3>Problem Rated as 2400</h3></label>
+            <input type="text" class="inpt171 inpp " style="margin-left: 10%; background-color: white; margin-right: 10%;" disabled>
+            <!-- <label for="inp2" style="padding: 10%;"><h3>Handle 2</h3></label> -->
+            <input type="text" class="inpt172 inpp " disabled style="background-color: white;">
+
+            <label style="padding-left: 15%; padding-right: 4.1%;"><h3>Problem Rated as 2500</h3></label>
+            <input type="text" class="inpt181 inpp " style="margin-left: 10%; background-color: white; margin-right: 10%;" disabled>
+            <!-- <label for="inp2" style="padding: 10%;"><h3>Handle 2</h3></label> -->
+            <input type="text" class="inpt182 inpp " disabled style="background-color: white;">
+
+            
+
+            <!-- </span> -->
+        
+    </div>
+
+
+    
+<footer id="footer">
+    <a href="https://www.facebook.com/profile.php?id=100049426727867" style="color: black; padding: 1%;"><i class="social fab fa-facebook"></i></a>
+   <!-- <a href=""> <i class="social fab fa-twitter"></i></a> -->
+    <a href="https://www.instagram.com/dnitin28/" style="color: black;  padding: 1%;"><i class="social fab fa-instagram"></i></a>
+    <a href="https://mail.google.com/mail/u/0/#inbox" style="color: black; padding: 1%;"><i class="social fas fa-envelope"></i></a>
+    <p>© Copyright Riya Singh</p>
+  </footer>
+
+  <script src="comparator.js"></script>
+
+</body>
+</html>
